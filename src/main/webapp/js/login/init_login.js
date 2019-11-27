@@ -33,7 +33,7 @@ $(function () {
         from_which = 1;
         var name = $('.input_nickname').val();
         var phone = $('.register_input_phone').val();
-        var code = $('.register_input_vcode').val();
+        var code = 123;
         var token = $('.token').val();
         if (name===''||phone===''||code===''){
             alert('请填写信息');
@@ -116,7 +116,7 @@ $(function () {
         from_which = 2;
         // var name = $('.input_nickname').val();
         var phone = $('.forget_input_phone').val();
-        var code = $('.forget_input_vcode').val();
+        var code =123456;
         var token = $('.token').val();
         if (phone===''||code===''){
             alert('请填写信息');

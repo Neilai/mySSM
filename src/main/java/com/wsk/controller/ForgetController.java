@@ -37,10 +37,10 @@ public class ForgetController {
             request.getSession().setAttribute("name", name);
         }
         String checkCodeToken = (String) request.getSession().getAttribute("token");
-        if (StringUtils.getInstance().isNullOrEmpty(checkCodeToken) || !checkCodeToken.equals(token)) {
-            map.put("result", 0);
-            return map;
-        }
+//        if (StringUtils.getInstance().isNullOrEmpty(checkCodeToken) || !checkCodeToken.equals(token)) {
+//            map.put("result", 0);
+//            return map;
+//        }
 //        验证码错误
 //        if (!checkCodePhone(code, request)) {
 //            map.put("result", 0);
